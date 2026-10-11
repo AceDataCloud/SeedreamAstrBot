@@ -1,0 +1,9 @@
+{
+  "api_key": {
+    "description": "Ace Data Cloud generation API key with Seedream access",
+    "type": "string",
+    "default": "",
+    "secret": true,
+    "hint": "Copy a generation API key from platform.acedata.cloud. Do not include 'Bearer '."
+  }
+}

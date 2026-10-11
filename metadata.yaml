@@ -1,0 +1,13 @@
+name: astrbot_plugin_seedream_acedatacloud
+display_name: Seedream by Ace Data Cloud
+short_desc: Generate or edit one Seedream image and retrieve finished images in chat.
+desc: Use your Ace Data Cloud key to submit one Seedream image job, then query the same task ID for final image URLs.
+version: 0.1.0
+author: acedatacloud
+repo: https://github.com/AceDataCloud/SeedreamAstrBot
+astrbot_version: ">=4.28.2,<5"
+tags:
+  - Seedream
+  - AI image
+  - image generation
+  - Ace Data Cloud

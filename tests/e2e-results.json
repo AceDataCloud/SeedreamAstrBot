@@ -1,0 +1,32 @@
+{
+  "environment": {
+    "astrbot_version": "4.28.2",
+    "installation": "isolated editable local plugin installation",
+    "chat_model": "gpt-4.1-mini through the generic OpenAI-compatible source",
+    "marketplace_installation": "not tested; AstrBot Cloud listing pending"
+  },
+  "primary_case": {
+    "model": "doubao-seedream-5-0-260128",
+    "size_requested": "2K",
+    "output_format": "jpeg",
+    "generation_tool": "seedream_generate_image",
+    "generation_tool_calls": 1,
+    "lookup_tool": "seedream_get_task",
+    "lookup_tool_calls": 1,
+    "task_id": "5d6fdb99-af4a-4103-8b24-e667d279d0f8",
+    "trace_id": "e443b444-e4e0-4a64-a1fe-1c34e838278b",
+    "terminal_status": "succeeded",
+    "image_count": 1,
+    "image_url": "https://platform2.cdn.acedata.cloud/seedream/8286065f-b06d-4749-9b0b-bab962d2d944.jpg",
+    "media_http_status": 200,
+    "media_content_type": "image/jpeg",
+    "media_codec": "mjpeg",
+    "image_width": 2048,
+    "image_height": 2048,
+    "usage_api_path": "/seedream/images",
+    "usage_status_code": 200,
+    "cost_rule_credits_before_discount": 0.37,
+    "usage_deducted_credits": 0.333
+  },
+  "scope_limit": "Single-image text generation and same-task lookup were run through AstrBot chat. Editing and the Pro model were validated structurally but not generated. Official market installation remains open."
+}
