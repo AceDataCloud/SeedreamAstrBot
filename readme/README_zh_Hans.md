@@ -2,7 +2,7 @@
 
 通过自己的 Ace Data Cloud 账号，在 AstrBot 对话中生成或编辑单张 Seedream 图片。`seedream_generate_image` 提交一次任务，`seedream_get_task` 用相同 ID 查询到完成。
 
-[English guide](../README.md) · [Seedream 图片 API](https://platform.acedata.cloud/documents/seedream-images) · [Seedream 任务 API](https://platform.acedata.cloud/documents/seedream-tasks) · [当前价格](https://platform.acedata.cloud/services/seedream?tab=pricing)
+[English guide](../README.md) · [Seedream 图片 API](https://platform.acedata.cloud/documents/seedream-images?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=seedreamastrbot_readme_documents_seedream_images) · [Seedream 任务 API](https://platform.acedata.cloud/documents/seedream-tasks?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=seedreamastrbot_readme_documents_seedream_tasks) · [当前价格](https://platform.acedata.cloud/services/seedream?tab=pricing&utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=seedreamastrbot_readme_services_seedream)
 
 ## 搜索与安装
 
@@ -12,7 +12,9 @@ AstrBot Cloud 官方上架尚未完成。源码合并发布后，可在 **Instal
 
 ## 配置 Key
 
-到 [Ace Data Cloud Applications](https://platform.acedata.cloud/console/applications) 复制 General application 的生成 API Key，或创建同时允许 `/seedream/images` 和 `/seedream/tasks` 的 Key。提交前检查当前价格和余额。在插件设置 **Ace Data Cloud generation API key with Seedream access** 中粘贴 Key 本身；不要加 `Bearer `，也不要使用 `platform-...` 管理 Token。AstrBot WebUI 会遮蔽字段，但数据目录会保存原值，请保护该目录。
+首次使用请先注册并登录；如果应用页还没有通用应用，点击 **初始化通用应用（Initialize General Application）**，再按下面步骤管理密钥。
+
+到 [Ace Data Cloud Applications](https://platform.acedata.cloud/console/applications?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=seedreamastrbot_readme_api_key) 复制 General application 的生成 API Key，或创建同时允许 `/seedream/images` 和 `/seedream/tasks` 的 Key。提交前检查当前价格和余额。在插件设置 **Ace Data Cloud generation API key with Seedream access** 中粘贴 Key 本身；不要加 `Bearer `，也不要使用 `platform-...` 管理 Token。AstrBot WebUI 会遮蔽字段，但数据目录会保存原值，请保护该目录。
 
 选择支持工具调用的聊天模型，在当前 Profile 和 Persona 中允许两个 Seedream 工具。
 
