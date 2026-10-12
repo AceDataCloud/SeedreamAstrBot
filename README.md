@@ -2,7 +2,7 @@
 
 Generate or edit one Seedream image in an AstrBot conversation through your own Ace Data Cloud account. The tools are `seedream_generate_image` and `seedream_get_task`; the first submits one job, and the second retrieves the same task until it finishes.
 
-[简体中文指南](readme/README_zh_Hans.md) · [Seedream Images API](https://platform.acedata.cloud/documents/seedream-images) · [Seedream Tasks API](https://platform.acedata.cloud/documents/seedream-tasks) · [Current prices](https://platform.acedata.cloud/services/seedream?tab=pricing)
+[简体中文指南](readme/README_zh_Hans.md) · [Seedream Images API](https://platform.acedata.cloud/documents/seedream-images?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=seedreamastrbot_readme_documents_seedream_images) · [Seedream Tasks API](https://platform.acedata.cloud/documents/seedream-tasks?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=seedreamastrbot_readme_documents_seedream_tasks) · [Current prices](https://platform.acedata.cloud/services/seedream?tab=pricing&utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=seedreamastrbot_readme_services_seedream)
 
 ## Find and install
 
@@ -12,7 +12,9 @@ The official AstrBot Cloud listing has not yet been published. After the source 
 
 ## Configure your key
 
-In [Ace Data Cloud Applications](https://platform.acedata.cloud/console/applications), copy a generation API key from your General application or create a key that permits both `/seedream/images` and `/seedream/tasks`. Check current pricing and your balance before submitting. Paste the key into the plugin's **Ace Data Cloud generation API key with Seedream access** setting. Do not add `Bearer ` or use a `platform-...` management token. AstrBot masks the field in WebUI but stores the original value in its data directory, which should be protected.
+New account? Register and sign in first. If the Applications page has no General application yet, choose **Initialize General Application**, then continue with the key steps below.
+
+In [Ace Data Cloud Applications](https://platform.acedata.cloud/console/applications?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=seedreamastrbot_readme_api_key), copy a generation API key from your General application or create a key that permits both `/seedream/images` and `/seedream/tasks`. Check current pricing and your balance before submitting. Paste the key into the plugin's **Ace Data Cloud generation API key with Seedream access** setting. Do not add `Bearer ` or use a `platform-...` management token. AstrBot masks the field in WebUI but stores the original value in its data directory, which should be protected.
 
 Select a chat model that supports tool calling. Allow both Seedream tools in the conversation's profile and persona.
 
