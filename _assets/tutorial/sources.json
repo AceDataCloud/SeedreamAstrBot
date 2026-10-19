@@ -1,0 +1,20 @@
+{
+  "checked_on": "2026-10-19",
+  "kind": "existing redacted Ace Applications screenshots; unchanged originals",
+  "source_page": "https://github.com/AceDataCloud/SunoDify/blob/8d3d03570e73324220f111f7fe343da0792a8071/README.md",
+  "source_commit": "8d3d03570e73324220f111f7fe343da0792a8071",
+  "original_capture_date": "unknown",
+  "images": [
+    {
+      "file": "get-api-key-en.png",
+      "source_url": "https://raw.githubusercontent.com/AceDataCloud/SunoDify/8d3d03570e73324220f111f7fe343da0792a8071/_assets/tutorial/get-api-key-en.png",
+      "sha256": "b63787f2bd15af82fef9ab61c99e11c454355ac86e91f7f94559386b795069b7"
+    },
+    {
+      "file": "create-api-key-en.png",
+      "source_url": "https://raw.githubusercontent.com/AceDataCloud/SunoDify/8d3d03570e73324220f111f7fe343da0792a8071/_assets/tutorial/create-api-key-en.png",
+      "sha256": "977c06780b36ca33f2fb3ba546e2594efe5895400e4cb58d842eb564c3bb09da"
+    }
+  ],
+  "limits": "Shared Ace UI, not AstrBot. Credentials/balance/AppID redacted. The Dify tutorial name is an older example; use an AstrBot-specific label. Does not prove host installation, API access, generation or marketplace publication."
+}
