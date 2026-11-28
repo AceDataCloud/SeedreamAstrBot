@@ -16,15 +16,13 @@ Repository installation: **Plugins → Plugins → Installed → Install Plugin 
 
 ## Configure your key
 
-New account? Register and sign in first. If the Applications page has no General application yet, choose **Initialize General Application**, then continue with the key steps below.
-
 In [Ace Data Cloud Applications](https://platform.acedata.cloud/console/applications?utm_source=astrbot&utm_medium=referral&utm_campaign=evergreen), copy a generation API key from your General application or create a key that permits both `/seedream/images` and `/seedream/tasks`. Check current pricing and your balance before submitting. Paste the key into the plugin's **Ace Data Cloud generation API key with Seedream access** setting. Do not add `Bearer ` or use a `platform-...` management token. AstrBot masks the field in WebUI but stores the original value in its data directory, which should be protected.
 
 Select a chat model that supports tool calling. Allow both Seedream tools in the conversation's profile and persona.
 
 ### Token screenshots: copy or create a dedicated key
 
-[Register or sign in to Ace](https://platform.acedata.cloud/console/applications?utm_source=astrbot&utm_medium=referral&utm_campaign=evergreen), then open **Applications → General application** and initialize it if absent. Use **1** to copy the selected key, or **2 Manage Keys → Create** for a dedicated key. If Allowed APIs is enabled, include `/seedream/images` and `/seedream/tasks`; check current entitlement, balance and prices before use.
+[Register or sign in to Ace](https://platform.acedata.cloud/console/applications?utm_source=astrbot&utm_medium=referral&utm_campaign=evergreen), then open **Applications → General application**. Use **1** to copy the selected key, or **2 Manage Keys → Create** for a dedicated key. If Allowed APIs is enabled, include `/seedream/images` and `/seedream/tasks`; check current entitlement, balance and prices before use.
 
 ![Copy an Ace key or open Manage Keys (redacted)](_assets/tutorial/get-api-key-en.png)
 

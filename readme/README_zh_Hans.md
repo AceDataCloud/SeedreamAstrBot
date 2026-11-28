@@ -16,15 +16,13 @@
 
 ## 配置 Key
 
-首次使用请先注册并登录；如果应用页还没有通用应用，点击 **初始化通用应用（Initialize General Application）**，再按下面步骤管理密钥。
-
 到 [Ace Data Cloud Applications](https://platform.acedata.cloud/console/applications?utm_source=astrbot&utm_medium=referral&utm_campaign=evergreen) 复制 General application 的生成 API Key，或创建同时允许 `/seedream/images` 和 `/seedream/tasks` 的 Key。提交前检查当前价格和余额。在插件设置 **Ace Data Cloud generation API key with Seedream access** 中粘贴 Key 本身；不要加 `Bearer `，也不要使用 `platform-...` 管理 Token。AstrBot WebUI 会遮蔽字段，但数据目录会保存原值，请保护该目录。
 
 选择支持工具调用的聊天模型，在当前 Profile 和 Persona 中允许两个 Seedream 工具。
 
 ### Token 图文：复制或创建专用 Key
 
-先[注册或登录 Ace](https://platform.acedata.cloud/console/applications?utm_source=astrbot&utm_medium=referral&utm_campaign=evergreen)，打开 **Applications → General application**；没有通用应用时先初始化。图中 **1** 复制现有 Key，**2 Manage Keys → Create** 创建专用 Key。API 限制开启时应包含 `/seedream/images`、`/seedream/tasks`，并检查账户当前权限、余额与价格。
+先[注册或登录 Ace](https://platform.acedata.cloud/console/applications?utm_source=astrbot&utm_medium=referral&utm_campaign=evergreen)，打开 **Applications → General application**。图中 **1** 复制现有 Key，**2 Manage Keys → Create** 创建专用 Key。API 限制开启时应包含 `/seedream/images`、`/seedream/tasks`，并检查账户当前权限、余额与价格。
 
 ![Ace 应用页复制 Key 或管理 Key（已脱敏）](../_assets/tutorial/get-api-key-en.png)
 
